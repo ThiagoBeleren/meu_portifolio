@@ -1,0 +1,53 @@
+main {
+    background: url(/images/background-portifolio.jpg);
+}
+main h2{
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+#skills p{
+    color: #25aae1;
+}
+.box {
+    background: #0c2538;
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.box{
+    position: relative;
+    border-radius: 20px;
+    max-width: ;
+    padding: 50px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    overflow: hidden;
+}
+
+#skills{
+    float: right;
+    overflow: None;
+    display: grid;
+    padding-left: 100px;
+}
+#image {
+    margin-top: 5%;
+    width: 40%;
+    height: 80%;
+}
+#linguagens {
+    display: flex;
+}
+.box #linguagens img, li {
+    width: 50px;
+    display: flex;
+    float: right;
+    padding: 2px;
+}
+#bibliotecas {
+    display: flex;
+}
+#bibliotecas img, li{
+    width: 60px;
+}
