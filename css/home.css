@@ -6,32 +6,49 @@ body {
 }
 ul li{
     text-decoration: none;
-    overflow: hidden;
+    overflow: ;
 }
-.raise:hover{
-    background-color: rgb(36, 179, 214);
-    border-color: transparent;
-    color: #444;
-    
-}
-.raise:focus {
-    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-    transform: translateY(-0.25em);
-    background: #08e7d5;
-    color:rgb(197, 231, 214);
-
-    
-}
-.raise {
-    padding: 5px;
-    border:  #08e7d5;
-    width: 300px;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    color: rgba(#fff, 0.8);
+.bn632-hover {
+    width: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
     cursor: pointer;
-    transition: 1.7s;
-}
+    margin: 5px;
+    height: 50px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 10px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn26 {
+    background-image: linear-gradient(
+      to right,
+      #25aae1,
+      #4481eb,
+      #04befe,
+      #3f86ed
+    );
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+  }
+
 header {
     height: 769px;
     margin: 0px;
@@ -44,7 +61,7 @@ header {
     letter-spacing: 1px;
     cursor: pointer;
     color: white;
-    margin: 1.1rem;
+    margin: 1.0rem;
     text-decoration: none;
     justify-content: center;
     
