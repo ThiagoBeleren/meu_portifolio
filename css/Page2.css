@@ -1,0 +1,59 @@
+main {
+    background: #bae8e8;
+    height: 950px;
+}
+main h2{
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+#skills p{
+    color: #25aae1;
+}
+.box-1 {
+    background: #bae8e8;
+    height: 50px;
+    width: 300px;
+}
+.box {
+    background: rgba(255,255,255,.2);
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 
+    "sobre-mim sobre-mim "
+    "image-neon skills"
+    "image-neon habilidades"
+    "image-neon bibliotecas-frameworks";
+    grid-gap: 20px;
+}
+
+.box{
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+
+}
+
+.sobre-mim{
+    grid-area: "sobre-mim";
+}
+.image-neon {
+    grid-area: "image-neon";
+    grid-row: image-neon;
+    width: 50%;
+}
+.skills {
+    grid-area: "skills";
+}
+.habilidades {
+    grid-area: "habilidades";
+}
+.icons img, li{
+    display: inline-flex;
+    align-content: center;
+    margin-left: auto;
+    width: 60px;
+    overflow: hidden;
+}

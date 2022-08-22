@@ -1,0 +1,23 @@
+section {
+    background: #2c698d;
+}
+section h2{
+    text-align: center;
+}
+.box-2 {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+.nome-projeto {
+    text-align: center;
+}
+.nome-projeto img{
+    width: 50px;
+}

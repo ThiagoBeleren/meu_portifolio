@@ -1,0 +1,125 @@
+body {
+    text-decoration-style: none;
+    margin: 0px;
+    padding: 0;
+    background: url(/images/HomeBackground.jpg);
+}
+ul li{
+    text-decoration: none;
+    overflow: ;
+}
+.bn632-hover {
+    width: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+    height: 50px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 10px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn26 {
+    background-image: linear-gradient(
+      to right,
+      #25aae1,
+      #4481eb,
+      #04befe,
+      #3f86ed
+    );
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+header {
+    width: 100%;
+    margin: 0px;
+}
+.selectors {
+    display: flex;
+}
+.selectors li, ul{
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: white;
+    margin: 1.0rem;
+    text-decoration: none;
+    justify-content: center;
+    
+}
+.selectors ul, li, li:hover{
+    color:  aqua;
+}
+
+
+.container{
+    display: flex;
+    padding: 20px 20px;
+    margin: auto /*12.5% 8%*/;
+    margin-bottom: 12%;
+
+}
+.text {
+    margin-top: 150px;
+    margin-left: 30px;
+}
+.text span{
+    
+    font-weight: 30px;
+    font-size: 76px; 
+    letter-spacing: 0.3rem;
+    color: white;
+    font-size: 54px;
+    color: white;
+}
+.image img{
+    margin-top: 10%;
+    width: 90%;
+}
+
+.botao {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(62, 196, 219);
+    cursor: pointer;
+    margin: 25px;
+    height: 55px;
+    text-align:center;
+    border-color: #25aae1;
+    border-style: outset;
+    border-width: 4px;
+    background: #091b29;
+    background-size: 300% 100%;
+
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+
+}
+
+.botao:hover {
+    color: rgb(41, 73, 179);
+    background: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+    border-style: hidden;
+}
+
