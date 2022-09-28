@@ -6,7 +6,7 @@ body {
 }
 ul li{
     text-decoration: none;
-    overflow: ;
+    overflow: hidden;
 }
 .bn632-hover {
     width: 100px;
@@ -100,7 +100,8 @@ header {
     font-weight: 600;
     color: rgb(62, 196, 219);
     cursor: pointer;
-    margin: 25px;
+    margin-left: 150px;
+    margin-top: 30px;
     height: 55px;
     text-align:center;
     border-color: #25aae1;

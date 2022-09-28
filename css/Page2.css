@@ -22,10 +22,10 @@ main h2{
     margin: auto;
     display: grid;
     grid-template-areas: 
-    "sobre-mim sobre-mim "
-    "image-neon skills"
-    "image-neon habilidades"
-    "image-neon bibliotecas-frameworks";
+    "sobre-mim "
+    "skills"
+    "habilidades"
+    "bibliotecas-frameworks";
     grid-gap: 20px;
 }
 
@@ -38,11 +38,6 @@ main h2{
 
 .sobre-mim{
     grid-area: "sobre-mim";
-}
-.image-neon {
-    grid-area: "image-neon";
-    grid-row: image-neon;
-    width: 50%;
 }
 .skills {
     grid-area: "skills";
