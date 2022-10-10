@@ -1,54 +1,62 @@
-main {
-    background: #bae8e8;
-    height: 950px;
-}
-main h2{
-    font-size: 30px;
-    text-align: center;
-    align-items: center;
-    color: white;
-}
-#skills p{
-    color: #25aae1;
+.page2 {
+    background: url(/images/background-portifolio.jpg);
 }
 .box-1 {
-    background: #bae8e8;
-    height: 50px;
+    padding-top: 100px;
+    height: 650px;
+    width: 100%;
+    display: flex;
+}
+.sobre {
+    display: flexbox;
+    margin-left: 15%;
+    margin-top: 50px;
+}
+.sobre #mechamo{
+    
+    font-size: 40px;
+    color: #fff;
+}
+.sobre #nome {
+    color: #fff;
+    font-size: 50px;
+}
+.sobre p{
+    color: gray;
+    text-decoration: none;
+}
+.sobre a {
+    margin-top: 50px;
+    text-decoration: None;
+    font-family: ;
+    font-size: 30px;
+    letter-spacing: 0.5px; 
+    color: gray;
+    padding: 0 10px;
+}
+.sobre a:after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 120px;
+    left: 0;
+    bottom: -15%;
+    transition: all 0.4s ease-in-out;
+}
+.sobre a:hover:after{
+    width: 140px;
+    font-size: 24px;
+}
+#sobreImg img{
+    padding-left: 100px;
     width: 300px;
-}
-.box {
-    background: rgba(255,255,255,.2);
-    width: 80%;
-    margin: auto;
-    display: grid;
-    grid-template-areas: 
-    "sobre-mim "
-    "skills"
-    "habilidades"
-    "bibliotecas-frameworks";
-    grid-gap: 20px;
-}
-
-.box{
-    border-radius: 20px;
-    padding: 50px;
-    box-shadow: 0 5px 15px rgba(0,0,0,.5);
-
-}
-
-.sobre-mim{
-    grid-area: "sobre-mim";
-}
-.skills {
-    grid-area: "skills";
-}
-.habilidades {
-    grid-area: "habilidades";
-}
-.icons img, li{
-    display: inline-flex;
-    align-content: center;
-    margin-left: auto;
-    width: 60px;
     overflow: hidden;
+}
+@media (max-width : 750px){
+    .box-1 {
+        display: grid;
+        grid-template-columns: 
+        auto;
+        grid-gap: 20px;
+    }
 }

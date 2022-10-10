@@ -1,0 +1,55 @@
+.page5 {
+   margin-top: 10%;
+}
+.blog {
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+}
+.info {
+    width: 400px;
+    margin-left: 50px;
+}
+.info h2{
+    
+    color: #fff;
+    text-align: start;
+    margin-top: 80px;
+}
+.info p {
+    color: gray;
+    margin-top: 30px;
+}
+
+.info button {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: #7289d9;
+}
+.blog button:hover {
+    background: #5865F2;
+}
+
+.blog .discord-img{
+    width: 600px;
+    height: 400px;
+    background: #fff;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (max-width: 750px){
+    .blog {
+        display: flex;
+        flex-direction: column;
+    }
+    .info {
+        margin-left: 120px;
+    }
+    .blog .discord-img {
+        margin-left: none;
+    }
+}
