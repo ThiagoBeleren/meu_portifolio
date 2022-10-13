@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 .page2 {
-    background: url(/images/background-portifolio.jpg);
+    background: ;
 }
 .box-1 {
     padding-top: 100px;
@@ -22,13 +24,14 @@
     font-size: 50px;
 }
 .sobre p{
+    font-family: 'Open Sans', sans-serif;
     color: gray;
+    text-align: start;
     text-decoration: none;
 }
 .sobre a {
     margin-top: 50px;
     text-decoration: None;
-    font-family: ;
     font-size: 30px;
     letter-spacing: 0.5px; 
     color: gray;
