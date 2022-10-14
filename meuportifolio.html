@@ -4,18 +4,22 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Thiago Beleren`s Website</title>
         <meta name="description" content="">
         <link rel="stylesheet" href="css/Page1.css">
         <link rel="stylesheet" href="css/Page2.css">
         <link rel="stylesheet" href="css/Page3.css">
-        <link rel="stylesheet" href="css/social-buttons.css">
-        <link rel="stylesheet" href="css/hamburguermenu.css">
+        <link rel="stylesheet" href="css/page4.css">
+        <link rel="stylesheet" href="css/page5.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/member_card.css">
+        <link rel="stylesheet" href="css/desenhos.css">
+        <link rel="stylesheet" href="css/explorar_botao.css">
+        <link rel="stylesheet" href="css/social_buttons.css">
+        <link rel="stylesheet" href="css/header_nav_bar.css">
         <link rel="stylesheet" href="css/discord_button.css">
         <link rel="stylesheet" href="css/project_cards.css">
         <link rel="stylesheet" href="css/paralax_background.css">
-        <link rel="stylesheet" href="css/page4.css">
-        <link rel="stylesheet" href="css/page5.css">
         <link rel="stylesheet" href="css/all.css">
         <script src="./js/projectslinks.js"></script>
     </head>
@@ -26,14 +30,13 @@
         <div id="star3"></div>
     
     <div class="page1">
-    
-        <nav id="main-menu">
+        <nav class="main-menu">
             <ul>
-              <li><a href="#">Inicio</a></li>
-              <li><a href="#">Sobre</a></li>
-              <li><a href="#">Portifolio</a></li>
-              <li><a href="#">Colaboradores</a></li>
-              <li><a href="#">Contato</a></li>
+              <li><a id="inicio" onclick="scrollPage1()" class="link" href="#">Inicio</a></li>
+              <li><a id="sobre" onclick="scrollPage2()" class="link" href="#">Sobre</a></li>
+              <li><a id="portifolio" onclick="scrollPage3()"class="link" href="#">Portifolio</a></li>
+              <li><a id="colaboradores" onclick="scrollPage4()" class="link" href="#">Colaboradores</a></li>
+              <li><a id="contato" onclick="scrollPage4()" class="link" href="#">Contato</a></li>
             </ul>
           </nav>
           
@@ -43,31 +46,13 @@
             <div class="line"></div>
         </div>
 
-        <input type="checkbox" id="hamburger-input" class="burger-shower" />
-        <label id="hamburger-menu" for="hamburger-input">
-            <nav id="sidebar-menu">
-              <h3>Menu</h3>
-              <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Portifolio</a></li>
-                <li><a href="#">Colaboradores</a></li>
-                <li><a href="#">Contato</a></li>
-              </ul>
-            </nav>
-          </label>
-
         <div class="container">
             <div class="blue-bar">
             </div>
-
             <div class="text">
-                <span> Ola, </span><br>
-                <span> Sou Densenvolvedor Back-end</span><br>
-                <button class="botao" type="button"> EXPLORAR </button><br>
-            </div>
-            <div class="image">
-                <img src="">
+                <span id="text-1"> OLÁ, </span><br>
+                <span id="text-2"> Sou Densenvolvedor Back-end</span><br>
+                <button class="botao" onclick="document.getElementsByClassName('page2').scrollIntoView()" id="sobre" type="button"> EXPLORAR </button><br>
             </div>
         </div>
 
@@ -82,22 +67,26 @@
             <div class="sobre">
                 <span id="mechamo"> Me Chamo, </span><br>
                 <span id="nome"> THIAGO BELEREN </span><br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>  
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br> 
-                        nisi ut aliquip ex ea commodo consequat. <br> 
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore <br> 
+                    <p>
+                        <span style="font-size: 30px;">Ola,</span> Comecei minha carreira como programador a varios anos atras, 
+                        embora nao fosse explicitamente uma linguagem de programacao servia como uma. 
+                        A "linguagem" foi do aplicativo discord bot designer o qual criava bot para o mesmo,
+                        por mais que fosse muito limitada, foi a partir dessa limitacao que busquei a aprender 
+                        sobre a area da programacao em si. <br><br>
+                        <span style="font-size: 30px;">Atualmente,</span> busco aprender varias linguagens do mercado 
+                        mais epecificamente, linguagens e bibliotecas sobre desenvolvimento de software e IA.
+
                     </p>
             </div>
             <div id="sobreImg">
                 <img src="/images/foto.jpg">
                 <div class="mediaIcons">
-                    <a href="#" onclick="github()" id="github"><span>Github</span></a>
-                    <a href="#" onclick="linkedin()" id="linkedin"><span>Linkedin</span></a>
-                    <a href="#" onclick="gmail()" id="gmail"><span>Gmail</span></a>
-                    <a href="#" onclick="instagram()" id="instagram"><span>Instagram</span></a>
-                    <a href="#" onclick="discord()" id="discord"><span>Discord</span></a>
-                    <a href="#" onclick="replit()" id="replit"><span>Replit</span></a>
+                    <a href="https://github.com/ThiagoBeleren" id="github"><span>Github</span></a>
+                    <a href="https://www.linkedin.com/in/thiago-beleren-923b6124b/" id="linkedin"><span>Linkedin</span></a>
+                    <a href="mailto:thiagobeleren@gmail.com?subject=Ola, Thiago" id="gmail"><span>Gmail</span></a>
+                    <a href="https://www.instagram.com/beleren_thiago" id="instagram"><span>Instagram</span></a>
+                    <a href="https://www.twitch.tv/ezdeterno" id="twitch"><span>Twitch</span></a>
+                    <a href="https://replit.com/@ThiagoBeleren" id="replit"><span>Replit</span></a>
                 </div>
             </div>
         </div>
@@ -107,10 +96,10 @@
         <h1>Portifolio e Habilidades</h1>
                 <div class="boxes">
                     <div class="box" id="box1" onclick="project1()">
-                        <p class="nomeprojeto">
+                        <h2 class="nomeprojeto">
                             My Linktree
-                        </p>
-                        <img id="boximage1" src="/images/foto.jpg">
+                        </h2>
+                        <img id="boximage1" src="/images/projeto1.png">
                         <div class="items">
                             <ul>
                                 <li><img src="./icons/icons8-html-5-48.png"></li>
@@ -119,32 +108,31 @@
                             </ul>
                         </div>
                         <p id="projectInfo">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, eius porro molestias deserunt velit odit repellat! Numquam modi nostrum autem magnam a magni accusamus at aperiam earum. Nobis, atque qui!
+                            Um simples encurtador de links.
                         </p>
                     </div>
                     
-                    <div class="box" id="box2" onclick="project1()">
-                        <p class="nomeprojeto">
-                            My Linktree
-                        </p>
-                        <img id="boximage1" src="/images/foto.jpg">
+                    <div class="box" id="box2" onclick="project2()">
+                        <h2 class="nomeprojeto">
+                            Len Bot
+                        </h2>
+                        <img id="boximage2" src="/images/project2.jpg">
                         <div class="items">
                             <ul>
-                                <li><img src="./icons/icons8-html-5-48.png"></li>
-                                <li><img src="./icons/icons8-css3-48.png"></li>
-                                <li><img src="./icons/javascript.png"></li>
+                                <li><img style="width: 50px; height: 50px;" src="./icons/python.png"></li>
+                                <li><img style="width: 70px; height: 50px; padding-left: 20px;" src="./icons/py-cord.png"></li>
                             </ul>
                         </div>
                         <p id="projectInfo">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, eius porro molestias deserunt velit odit repellat! Numquam modi nostrum autem magnam a magni accusamus at aperiam earum. Nobis, atque qui!
+                            Bot feito ultilizando a biblioteca pycord, bot pro discord que executa comandos gerais.
                         </p>
                     </div>
 
-                    <div class="box" id="box3" onclick="project1()">
+                    <div class="box" id="box3" onclick="project3()">
                         <p class="nomeprojeto">
-                            My Linktree
+                            EM BREVE!
                         </p>
-                        <img id="boximage1" src="/images/foto.jpg">
+                        <img id="boximage3" src="">
                         <div class="items">
                             <ul>
                                 <li><img src="./icons/icons8-html-5-48.png"></li>
@@ -153,15 +141,15 @@
                             </ul>
                         </div>
                         <p id="projectInfo">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, eius porro molestias deserunt velit odit repellat! Numquam modi nostrum autem magnam a magni accusamus at aperiam earum. Nobis, atque qui!
+                            Em breve!
                         </p>
                     </div>
 
-                    <div class="box" id="box4" onclick="project1()">
+                    <div class="box" id="box4" onclick="project4()">
                         <p class="nomeprojeto">
-                            My Linktree
+                            EM BREVE!
                         </p>
-                        <img id="boximage1" src="/images/foto.jpg">
+                        <img id="boximage4" src="">
                         <div class="items">
                             <ul>
                                 <li><img src="./icons/icons8-html-5-48.png"></li>
@@ -170,15 +158,15 @@
                             </ul>
                         </div>
                         <p id="projectInfo">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, eius porro molestias deserunt velit odit repellat! Numquam modi nostrum autem magnam a magni accusamus at aperiam earum. Nobis, atque qui!
+                            Em breve!
                         </p>
                     </div>
 
-                    <div class="box" id="box5" onclick="project1()">
+                    <div class="box" id="box5" onclick="project5()">
                         <p class="nomeprojeto">
-                            My Linktree
+                            EM BREVE!
                         </p>
-                        <img id="boximage1" src="/images/foto.jpg">
+                        <img id="boximage5" src="">
                         <div class="items">
                             <ul>
                                 <li><img src="./icons/icons8-html-5-48.png"></li>
@@ -187,15 +175,15 @@
                             </ul>
                         </div>
                         <p id="projectInfo">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, eius porro molestias deserunt velit odit repellat! Numquam modi nostrum autem magnam a magni accusamus at aperiam earum. Nobis, atque qui!
+                            Em breve!
                         </p>
                     </div>
 
-                    <div class="box" id="box6" onclick="project1()">
+                    <div class="box" id="box6" onclick="project6()">
                         <p class="nomeprojeto">
-                            My Linktree
+                            EM BREVE!
                         </p>
-                        <img id="boximage1" src="/images/foto.jpg">
+                        <img id="boximage6" src="">
                         <div class="items">
                             <ul>
                                 <li><img src="./icons/icons8-html-5-48.png"></li>
@@ -204,65 +192,77 @@
                             </ul>
                         </div>
                         <p id="projectInfo">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, eius porro molestias deserunt velit odit repellat! Numquam modi nostrum autem magnam a magni accusamus at aperiam earum. Nobis, atque qui!
+                            em breve!
                         </p>
                     </div>
                 </div>
     </div>
+
     <div class="page4">
         <h1>Colaboradores</h2>
         <div class="colaboradores-container">
             <div class="member-card">
-                <div class="circle">
-                    <div class="little-circle">                        
+                <div class="glass"></div>
+                <div class="content">
+                    <div class="circle">
+                        <img src="/images/foto2.jpg">
+                        <div class="little-circle">                        
+                        </div>
                     </div>
-                </div>
-                <h2>JojoSoninho<span>#3053</span></h2>
-                <p>ADM & Bot Manager</p>
-                <div class="user-midia">
-                    <span>
-                    <a href="#"><img src="./icons/github-30.png"></a>
-                    </span>
-                    <span>
-                    <a href="#"><img src="./icons/instagram.png"></a>
-                    </span>
-                    <img id="brazil" src="./icons/brazil-40.png">
+                    <h2>JojoSoninho<span>#3053</span></h2>
+                    <p>Software dev & Bot Manager</p>
+                    <div class="user-midia">
+                        <span>
+                        <a href="https://github.com/ThiagoBeleren"><img src="./icons/github-30.png"></a>
+                        </span>
+                        <span>
+                        <a href="https://www.instagram.com/beleren_thiago"><img src="./icons/instagram.png"></a>
+                        </span>
+                        <img id="brazil" src="./icons/brazil-40.png">
+                    </div>
                 </div>
             </div>
 
             <div class="member-card">
-                <div class="circle">
-                    <div class="little-circle">                        
+                <div class="glass"></div>
+                <div class="content">
+                    <div class="circle">
+                        <img src="/images/foto3.jpeg">
+                        <div class="little-circle">                        
+                        </div>
+                    </div>
+                    <h2>xandy<span>#8617</span></h2>
+                    <p>Data Scientist</p>
+                    <div class="user-midia">
+                        <span>
+                        <a href="https://github.com/wandersonsantos20"><img src="./icons/github-30.png"></a>
+                        </span>
+                        <span>
+                        <a href="https://www.instagram.com/xandysaints18/"><img src="./icons/instagram.png"></a>
+                        </span>
+                        <img id="brazil" src="./icons/brazil-40.png">
                     </div>
                 </div>
-                <h2>JojoSoninho<span>#3053</span></h2>
-                <p>ADM & Bot Manager</p>
-                <div class="user-midia">
-                    <span>
-                    <a href="#"><img src="./icons/github-30.png"></a>
-                    </span>
-                    <span>
-                    <a href="#"><img src="./icons/instagram.png"></a>
-                    </span>
-                    <img id="brazil" src="./icons/brazil-40.png">
-                    </div>
             </div>
             
             <div class="member-card">
-                <div class="circle">
-                    <div class="little-circle">                        
+                <div class="glass"></div>
+                <div class="content">
+                    <div class="circle">
+                        <img src="/images/foto4.png">
+                        <div class="little-circle">                        
+                        </div>
                     </div>
-                </div>
-                <h2>JojoSoninho<span>#3053</span></h2>
-                <p>ADM & Bot Manager</p>
-                <div class="user-midia">
-                    <span>
-                    <a href="#"><img src="./icons/github-30.png"></a>
-                    </span>
-                    <span>
-                    <a href="#"><img src="./icons/instagram.png"></a>
-                    </span>
-                    <img id="brazil" src="./icons/brazil-40.png">
+                    <h2>Len<span>#5042</span></h2>
+                    <p>Bot</p>
+                    <div class="user-midia">
+                        <span>
+                        <a href="https://github.com/ThiagoBeleren/lenbot"><img src="./icons/github-30.png"></a>
+                        </span>
+                        <span>
+                        </span>
+                        <img id="brazil" src="./icons/brazil-40.png">
+                    </div>
                 </div>
             </div>
         </div>
@@ -274,12 +274,22 @@
                 <h2>Junte-se ao meu <span>servidor</span></h2>
                 <p>Ao entrar, voce contara com diversos membros que ajudam um ao outro, alem de poder jogar, treinar programacao...</p>
                     <div class="discord-button">
-                    <a href="#" style="--clr:#1e9bff"><span>Junte-se</span><i></i></a>
+                    <a href="https://discord.gg/ukNgpMcU6b" style="--clr:#1e9bff"><span>Junte-se</span><i></i></a>
                     </div>
                 </div>
-                <div class="discord-img">
-                    <img src="">
-                </div>
+                <!--<h2>Ou envie-me um email</h2>
+                <form action=”mailto:contact@yourdomain.com”
+                        method=”POST”
+                        enctype=”text/plain”
+                        name=”EmailForm”>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="ContactCommentt">Message:</label><br>
+                    <textarea id=”ContactCommentt” rows=”6″ cols=”20″>
+                    <input type="submit" value="Send">
+                </form>
+            -->
+                    <img src="/images/people-video-chatting-at-home.png">
             </div>
 
         </div>

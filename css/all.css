@@ -2,11 +2,13 @@
 body {
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 * {
     margin: 0;
     padding: 0;
     text-decoration-style: none;
+    list-style: none;
 }
 h1 {
     font-family: 'Open Sans', sans-serif;

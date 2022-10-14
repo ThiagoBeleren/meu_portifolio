@@ -2,9 +2,9 @@
    margin-top: 10%;
 }
 .blog {
+    margin-left: auto;
     display: flex;
     max-width: 1200px;
-    margin-left: auto;
     margin-right: auto;
     gap: 20px;
 }
@@ -12,15 +12,7 @@
     width: 400px;
     margin-left: 50px;
 }
-.info h2{
-    color: #fff;
-    text-align: start;
-    margin-top: 80px;
-}
-.info p {
-    color: gray;
-    margin-top: 30px;
-}
+
 
 .info button {
     margin-top: 50px;
@@ -30,7 +22,7 @@
     background-color: #7289d9;
 }
 
-.blog .discord-img{
+.discord-img img{
     width: 600px;
     height: 400px;
     background: #fff;

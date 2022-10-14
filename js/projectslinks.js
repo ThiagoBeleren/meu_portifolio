@@ -1,20 +1,29 @@
-function github (){
-    window.location.href="https://github.com/ThiagoBeleren"
+function scrollPage1() {
+    var x = document.getElementsByClassName('page1')
+    x.scrollIntoView()
 }
-function linkedin () {
-    window.location.href = "https://www.linkedin.com/in/thiago-beleren-923b6124b/"
+function scrollPage2 (){
+    x = document.getElementsByClassName('page2').scrollIntoView()
+    x.scrollIntoView()
 }
-function gmail (){
-    window.location.href = 'https://www.instagram.com/beleren_thiago/'
+function scrollPage3 (){
+    x = document.getElementsByClassName('page3').scrollIntoView()
+    x.scrollIntoView()
 }
-function discord (){
-    window.location.href = 'https://discord.gg/HgRgUbCRrx'
+function scrollPage4 (){
+    x = document.getElementsByClassName('page4').scrollIntoView()
+    x.scrollIntoView()
 }
-function replit (){
-    window.location.href = 'https://replit.com/@ThiagoBeleren'
+function scrollPage5 (){
+    x = document.getElementsByClassName('page5').scrollIntoView()
+    x.scrollIntoView()
 }
-
 function project1 (){
     document.getElementById('box1')
     window.location.href = 'https://github.com/ThiagoBeleren/mylinktree'
+}
+
+function project2 (){
+    document.getElementById('box2')
+    window.location.href = 'https://github.com/ThiagoBeleren/lenbot'
 }

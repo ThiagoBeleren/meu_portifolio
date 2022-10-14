@@ -1,0 +1,32 @@
+.lines {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 100px;
+    gap: 20px;
+    top: 10px;
+}
+.line {
+    width: 100px;
+    height: 5px;
+    background: rgb(62, 196, 219);
+}
+
+.blue-bar {
+    width: 400px;
+    height: 70px;
+    background: rgb(62, 196, 219);
+    position: absolute;
+    bottom: 195px;
+    left: 300px;
+    z-index: -1;
+}
+
+.thin-line{
+    width: 400px;
+    height: 3px;
+    background-color: #12a0cf;
+    position: absolute;
+    margin-left: 10%;
+    left: 500px;
+}
