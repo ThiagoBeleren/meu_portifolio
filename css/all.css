@@ -8,12 +8,17 @@ body {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     body {
       width: 100%;
+      margin-left: auto;
+      margin-right: auto;
     }
-    .page3 {
-        margin-left: 20%;
-    }
-    .page4 {
-        margin-left: 20%; 
+    .blue-bar {
+        width: 400px;
+        height: 70px;
+        background: rgb(62, 196, 219);
+        position: absolute;
+        bottom: 160px;
+        left: 300px;
+        z-index: -1;
     }
   }
 * {
