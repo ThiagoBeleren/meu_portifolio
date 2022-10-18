@@ -31,7 +31,6 @@ body {
 
     /*Page 3*/
     .boxes {
-        
         margin-left: 30%;
     }    
     .box {
@@ -49,7 +48,10 @@ body {
     .discord-img img{
         margin-left: 30%;
     }
-
+    .member-card {
+        width: 400px;
+        height: 500px;
+    }
     /*page 5*/
     .blog {
         margin-left: 20%;
