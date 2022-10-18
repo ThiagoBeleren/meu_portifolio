@@ -42,16 +42,10 @@ body {
     .member-card {
         margin-left: 20%;
     }
-    .colaboradores-container {
-        margin-left: 60%;
-    }
     .discord-img img{
-        margin-left: 30%;
+        padding-left: 50%;
     }
-    .member-card {
-        width: 400px;
-        height: 500px;
-    }
+
     /*page 5*/
     .blog {
         margin-left: 20%;
