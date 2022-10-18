@@ -41,7 +41,7 @@ body {
     /*Page 4*/
     .colaboradores-container {
         margin-left: 55%;
-        border-width: 4px 100px;
+        border-width: 4px 50px;
         border-style: solid;
         border-color: #44B8BF;
     }
@@ -49,10 +49,6 @@ body {
     /*page 5*/
     .blog {
         margin-left: 20%;
-    }
-    .discord-img {
-        margin-left: 400px;
-        padding-left: 400px;
     }
 }
 
