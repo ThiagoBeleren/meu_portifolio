@@ -11,7 +11,7 @@ body {
       width: 100%;
     }
     h2 {
-        text-align: center;
+        margin-left: 40%;
     }
     .blue-bar {
         width: 400px;
@@ -24,12 +24,21 @@ body {
     }
 
     /*Page 3*/
+    .boxes {
+        margin-left: 40%;
+    }    
     .box {
         margin-left: 40%;
     }
     /*Page 4*/
     .member-card {
         margin-left: 40%;
+    }
+    .colaboradores-container {
+        margin-left: 40%;
+    }
+    .discord-img img{
+        margin-left: 30%;
     }
 }
 
