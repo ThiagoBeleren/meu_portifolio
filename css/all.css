@@ -10,7 +10,7 @@ body {
     body {
       width: 100%;
     }
-    h2 {
+    h1{
         margin-left: 40%;
     }
     .blue-bar {
@@ -23,22 +23,30 @@ body {
         z-index: -1;
     }
 
+    /*Page 2*/
+    .page2 {
+        margin-left: 20%;
+    }
+
     /*Page 3*/
     .boxes {
+        width: 500px;
         margin-left: 40%;
     }    
     .box {
         margin-left: 40%;
     }
+
     /*Page 4*/
     .member-card {
         margin-left: 40%;
     }
     .colaboradores-container {
         margin-left: 40%;
+        width: 1200px;
     }
-    .discord-img img{
-        margin-left: 30%;
+    .discord-img {
+        padding-left: 30%;
     }
 }
 
